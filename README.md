@@ -120,25 +120,21 @@ This small simulation demonstrates Grover's amplitude amplification, but it does
 
 ## Project structure
 
-```text
-quantum-treasure-hunt/
-??? src/
-?   ??? __init__.py
-?   ??? treasure_hunt.py
-?   ??? run_experiments.py
-?   ??? noise_experiment.py
-??? tests/
-?   ??? test_treasure_hunt.py
-??? results/
-?   ??? experiment_results.csv
-?   ??? experiment_results.json
-?   ??? grover_circuit.png
-?   ??? grover_histogram.png
-?   ??? noise_experiment.json
-??? .gitignore
-??? requirements.txt
-??? README.md
-```
+- `src/`
+  - `__init__.py`
+  - `treasure_hunt.py`
+  - `run_experiments.py`
+  - `noise_experiment.py`
+- `tests/test_treasure_hunt.py`
+- `results/`
+  - `experiment_results.csv`
+  - `experiment_results.json`
+  - `grover_circuit.png`
+  - `grover_histogram.png`
+  - `noise_experiment.json`
+- `.gitignore`
+- `requirements.txt`
+- `README.md`
 
 ## Limitations and future work
 
