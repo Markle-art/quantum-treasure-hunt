@@ -1,0 +1,5 @@
+target,shots,success_count,success_probability,classical_random_guess_probability
+00,1024,1024,1.0,0.25
+01,1024,1024,1.0,0.25
+10,1024,1024,1.0,0.25
+11,1024,1024,1.0,0.25

@@ -1,0 +1,37 @@
+{
+  "experiment": "Grover Quantum Treasure Hunt",
+  "shots_per_target": 1024,
+  "simulator": "Qiskit AerSimulator",
+  "ideal_success_probability": 1.0,
+  "classical_random_guess_probability": 0.25,
+  "targets": {
+    "00": {
+      "counts": {
+        "00": 1024
+      },
+      "success_count": 1024,
+      "success_probability": 1.0
+    },
+    "01": {
+      "counts": {
+        "01": 1024
+      },
+      "success_count": 1024,
+      "success_probability": 1.0
+    },
+    "10": {
+      "counts": {
+        "10": 1024
+      },
+      "success_count": 1024,
+      "success_probability": 1.0
+    },
+    "11": {
+      "counts": {
+        "11": 1024
+      },
+      "success_count": 1024,
+      "success_probability": 1.0
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "target": "11",
+  "shots": 4096,
+  "noise_model": {
+    "type": "depolarizing",
+    "single_qubit_error_probability": 0.01,
+    "two_qubit_error_probability": 0.02,
+    "applies_to": [
+      "h",
+      "x",
+      "cz"
+    ]
+  },
+  "ideal": {
+    "counts": {
+      "11": 4096
+    },
+    "success_probability": 1.0
+  },
+  "noisy": {
+    "counts": {
+      "11": 3775,
+      "00": 71,
+      "01": 120,
+      "10": 130
+    },
+    "success_probability": 0.921630859375
+  }
+}
